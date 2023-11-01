@@ -1,0 +1,16 @@
+.btn {
+  @include no-btn(flex);
+  @include trs();
+  @include btn_anim();
+  color: var(--main-white);
+  background-color: var(--main-blue);
+  width: 172px;
+  height: 60px;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-style: normal;
+  line-height: normal;
+  border-radius: 12px;
+  outline: none;
+}
